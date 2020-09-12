@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import About from './components/About';
+import Sponsors from './components/Sponsors';
 import Tracks from './components/Tracks';
 
 function App() {
   return (
     <div className="App">
       <Tracks />
-      <p>Additional info</p>
-      <p>Additional info</p>
-      <p>Additional info</p>
+      <About />
+      <Sponsors />
     </div>
   );
 }
