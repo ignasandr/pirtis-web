@@ -10,7 +10,7 @@ services:
         environment: 
             VIRTUAL_HOST: audiopirtis.lt, www.audiopirtis.lt
         command:
-            yarn run
+            yarn start
 
 networks:
   default:
