@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
     client:
+        stdin_open: true
         build:
             context: .
             dockerfile: Dockerfile
@@ -9,8 +10,6 @@ services:
             - 3000
         environment: 
             VIRTUAL_HOST: audiopirtis.lt, www.audiopirtis.lt
-        command:
-            yarn start
 
 networks:
   default:

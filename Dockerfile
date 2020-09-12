@@ -5,4 +5,4 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY ./package.json /app/
 RUN yarn --silent
 COPY . /app
-RUN yarn start 
+RUN yarn run start 
