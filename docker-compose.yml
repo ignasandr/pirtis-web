@@ -9,6 +9,9 @@ services:
             - 80
         environment: 
             VIRTUAL_HOST: audiopirtis.lt, www.audiopirtis.lt
+        command:
+            serve -s build
+        
 
 networks:
   default:

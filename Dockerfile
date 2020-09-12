@@ -8,4 +8,6 @@ RUN yarn install && yarn cache clean
 
 COPY . /app
 
+RUN yarn global add serve
+
 CMD ["yarn", "run", "build"]
