@@ -9,6 +9,8 @@ services:
             - 3000
         environment: 
             VIRTUAL_HOST: audiopirtis.lt, www.audiopirtis.lt
+        command:
+            yarn run
 
 networks:
   default:
