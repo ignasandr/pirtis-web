@@ -7,7 +7,7 @@ services:
             context: .
             dockerfile: Dockerfile
         expose:
-            - 3000
+            - 80 
         environment: 
             VIRTUAL_HOST: audiopirtis.lt, www.audiopirtis.lt
 
